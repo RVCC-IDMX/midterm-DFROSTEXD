@@ -1,10 +1,24 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color:lightblue;
+    color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align:center;
+}
 
+header {
+    text-align:center;
+}
 /* Projects */
 
 /* Reviews */
+#review h2 {
+    font-family:'Cambria';
+}
 
 /* Footer */
 
