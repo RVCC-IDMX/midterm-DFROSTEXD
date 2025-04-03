@@ -5,20 +5,59 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:lightblue;
     color: black;
+    border: 100px solid rgb(173, 251, 251);
+    border-radius: 15px;
+    text-shadow: .1px .1px;
 }
-h1, h2, h3, h4, h5, h6 {
+body h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body h4, h5, h6 {
+    text-decoration: underline;
+}
+main h2 {
+    text-decoration: underline;
+}
+main h3 {
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+main {
     text-align:center;
 }
-
+#description {
+   line-clamp: 10;
+}
 header {
     text-align:center;
+    border: 3px solid black;
+    border-radius: 50px;
 }
+
+
 /* Projects */
+#projects  {
+    text-align:center;
+}
+img {
+    border: 5px solid rgb(143, 127, 172);
+    border-radius: 3px
+}
+
 
 /* Reviews */
-#review h2 {
-    font-family:'Cambria';
+#reviews {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+#content {
+    border: .5px solid black;
+}
+
 
 /* Footer */
 
@@ -27,11 +66,60 @@ header {
 @media (min-width: 1000px) {
 
     /* Header & Hero */
-
-    /* Projects */
-
-    /* Reviews */
+    body {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color:lightblue;
+        color: black;
+        border: 100px solid rgb(173, 251, 251);
+        border-radius: 15px;
+        text-shadow: .1px .1px;
+        text-align: center;
+    }
+    body h1 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    main {
+        text-align: center;
+        display: inline-block;
+    }
+    main h3 {
+        border: 3px solid black;
+        border-radius: 10px;
+        text-align: center;
+        display: inline-block;
+    }   
+    #hero div {
+        text-align: center;
+    }
+    #description {
+       line-clamp: 10;
+    }
+    header  {
+        text-align:center;
+    }
+    
 
     /* Footer */
+
+
+
+    /* Projects */
+    #projects  {
+        text-align:center;
+    }
+    img {
+        border: 5px solid rgb(143, 127, 172);
+        border-radius: 3px
+    }
+    /* Reviews */
+    #name div {
+        text-align: left;
+    }
+    #reviews {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
 
 }
