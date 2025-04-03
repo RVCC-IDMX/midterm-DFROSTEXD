@@ -3,9 +3,9 @@
 /* Header & Hero */
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:lightblue;
+    background-color:rgb(207, 187, 249);
     color: black;
-    border: 100px solid rgb(173, 251, 251);
+    border: 100px solid rgb(85, 67, 122);
     border-radius: 15px;
     text-shadow: .1px .1px;
 }
@@ -68,9 +68,9 @@ img {
     /* Header & Hero */
     body {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        background-color:lightblue;
+        background-color:rgb(207, 187, 249);
         color: black;
-        border: 100px solid rgb(173, 251, 251);
+        border: 100px solid rgb(85, 67, 122);
         border-radius: 15px;
         text-shadow: .1px .1px;
         text-align: center;
